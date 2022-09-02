@@ -1,0 +1,5 @@
+body{
+    background-color: rgb(34, 34, 34); /* esse comando serve para mudar a cor de tod a pagina*/
+    color: white ; /* Muda a cor de todas as fontes  */
+    font-family: poppinsregular;/* serve para estar mudando de fonte */
+}
