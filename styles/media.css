@@ -1,0 +1,26 @@
+@media screen and (max-width: 760px){/*Vai fazer com que o site funcione em qualquer tamanho de tela *//*<maxwidth>Quando o site chegar na largura de 760px vai mudar de acordo com oq tem dentro*/
+    header{
+        flex-direction: column; /*No cabeçalho quando atingir os px que foi dado max-width ficara como coluna*/
+    }
+
+    main{
+        flex-direction: column;
+    }
+    h2{
+        font-size: 38px;
+    }
+    form{
+        margin: 0 auto;
+        width: 100%;
+    }
+    input{
+        align-self: center;
+    }
+    img{
+        margin-top: 100px;
+    }
+
+    ul{
+        text-align: center;
+    }
+}

@@ -68,17 +68,20 @@ form{
     width: 70%; /*<width> e uma largura....para ficar 70% de acordo com o tamanho da div..... Aqui no caso como esta separada pra apenas a metade da tela n vai fic na pagina completa  */
     
 }
-form[type="submit"]{/*Vai mexer apenas no submit do form*/
-    height: 20px;/*Definir altura*/
-    width: 50px; /*Definir Largura*/
+form [type="submit"]{/*Vai mexer apenas no submit do form*/
+    height: 50px;/*Definir altura*/
+    width: 50%; /*Definir Largura*/
     background-color: rgb(132, 13, 201);
     color: white;
-    font-size: bold;
+    font-weight: 15px;
 }
+form [type="submit"]:hover{/*Vai mexer apenas no submit do form* hover*/
+    cursor: pointer;}/* serve para colocar um mão do mouse quando passa por cima de "botão"*/
 input{
     margin-top: 20px;/*vai dar uma separada */
     height: 20px;
     padding: 15px;
     border-radius: 20px;
+    border: none;
     font-size: 15px;
 }
