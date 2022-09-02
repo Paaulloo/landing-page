@@ -1,5 +1,29 @@
-body{
+body{/*aqui eu mexo no corpo */
     background-color: rgb(34, 34, 34); /* esse comando serve para mudar a cor de tod a pagina*/
     color: white ; /* Muda a cor de todas as fontes  */
     font-family: poppinsregular;/* serve para estar mudando de fonte */
+    max-width: 1200px;/* serve para quando tiver varios elementos na tela não espalhar na tela */
+    margin: 0 auto;/* para as informaçãoes ficarem no meio da tela*/
+    padding:15px ;/* criar margem em volta um espaçamente interno para ficar tudo mais afunilado */
+}
+header{/*agora eu mexo no cabeçalho da pagina*/
+    display: flex; /*E um metodo de itilização mais simples de posicionar: lado, frente, em cima em baixo */ /*quando estou colocando o flex eu estou dizendo que o cabeçalho vai ser um flex box */
+    flex-direction: row;/*isto faz com que o cabeçaho  vire uma linha  */
+    justify-content: space-between;/*isso cria um espaço entre (marketing creativo e °inicio °serviço°sobre°contato°já tem uma conta?*/
+    align-items: center; /*isto sevre apra fazer o alinhamento */
+}
+#title{/*quando está usando uma div com uma id= no css colocar # e o nome que foi dado */
+    flex-direction: column;/*para virar uma coluna */
+    line-height: 10px;/*para chegar mais perto o marketing com o creativo vai mexer 10px na vertical  */
+}
+li{
+    display: inline-block;/*Faz com o conteudo dentro do li fica um do lado do outro */
+}
+h1{/*Neste projeto tem apenas duas linha <h1> */
+    font-weight:200;/*força de fonte se a fonte vai ficar groça ou fina  */   
+}
+main{
+    display: flex;/*E um metodo de itilização mais simples de posicionar: lado, frente, em cima em baixo */ /*quando estou colocando o flex eu estou dizendo que o cabeçalho vai ser um flex box */
+    flex-direction: row;
+    margin-top:50px ;/*Criar uma margin pra cima que faz com que empurre o ocnteudo para baixo*/
 }
