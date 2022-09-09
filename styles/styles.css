@@ -16,6 +16,15 @@ header{/*agora eu mexo no cabeçalho da pagina*/
     flex-direction: column;/*para virar uma coluna */
     line-height: 10px;/*para chegar mais perto o marketing com o creativo vai mexer 10px na vertical  */
 }
+#paragrafo{
+    column-count: 2;
+    line-height: 25px;
+        font-family: poppinslight
+    }
+   .redes{
+    padding: 150px;
+
+   }
 li{
     display: inline-block;/*Faz com o conteudo dentro do li fica um do lado do outro alinhado */
     margin: 20px;/*serque para que fique uma distancia de um para o outro */
@@ -28,23 +37,13 @@ a:hover{/*Ser para dar efeito na letra quando passa o mouse por cima */
     transition: 0.3s all; /*Quando passar o mouse por cima da letra para mudar de cor esse vai ser o tempo que leva para ir mudando de cor *//*<all> Serve para aplicar em tudo*/
 
 }
-#inscreva-se-botao{
-    border: 2px solid rgb(132, 13, 201);/* Faz com que crie uma borda solida da cor rocha */
-    padding: 10px; /*Vai servir para que enpurre o conteudo que esta dentro e a borda vai mais pra fora criando uma magin interna  *//*A borda ficou mais fina*/
-    border-radius: 20px; /*Vai fazer com que cria uma borda */ 
-}
-#inscreva-se-botao:hover{/*Ser para dar efeito na letra quando passa o mouse por cima */
-    background-color: rgb(132, 13, 201); /*ele faz com que por fora da letra fica da cor escoplida*/
-    color: white;/*Faz com que a letra fica com o cor escolhida*/
-
-}
 h1{/*Neste projeto tem apenas duas linha <h1> */
     font-weight:200;/*força de fonte se a fonte vai ficar groça ou fina  */   
 }
 main{
     display: flex;/*E um metodo de utilização mais simples de posicionar: lado, frente, em cima em baixo */ /*quando estou colocando o flex eu estou dizendo que o cabeçalho vai ser um flex box */
     flex-direction: row;
-    margin-top:50px ;/*Criar uma margin pra cima que faz com que empurre o ocnteudo para baixo*/
+    margin-top:50px ;/*Criar uma margin pra cima que faz com que empurre o conteudo para baixo*/
 }
 h2{
     font-size: 50px; /*Isto faz com que o texto fique maior*/
@@ -53,12 +52,29 @@ h2{
 }
 .inscrevase{
     color: rgb(132, 13, 201); /*serve apra mudar a cor da letra no caso */
+} 
+.sobre{
+    color: rgb(132, 13, 201); /*serve apra mudar a cor da letra no caso */
+} 
+.sobrenome{
+    font-size: 35px;
+    line-height: 50px;
+    
+    font-family: poppinsmedium;
 }
+.icones{
+  left:60px ;
+    width: 400px;
+
+}
+
 .texto{
     line-height: 20px;/*para chegar mais perto vai mexer 10px na vertical*/
-    max-height: 500px; /*Faz com que o paragrafo tenha uma largura maxima de 500px*/
+    max-height: 600px; /*Faz com que o paragrafo tenha uma largura maxima de 500px*/
     font-family: poppinslight;
 }
+
+
 img{
     width: 250px; /*O widthatributo especifica a largura do elemento, em pixels*/
     border-radius: 50px;
