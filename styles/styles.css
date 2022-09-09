@@ -51,15 +51,12 @@ h2{
      font-family: poppinsmedium;/* serve para estar mudando de fonte */   
 }
 .inscrevase{
-    color: rgb(132, 13, 201); /*serve apra mudar a cor da letra no caso */
-} 
-.sobre{
-    color: rgb(132, 13, 201); /*serve apra mudar a cor da letra no caso */
-} 
+    color: blueviolet;
+}
 .sobrenome{
     font-size: 35px;
     line-height: 50px;
-    
+    color: blueviolet;
     font-family: poppinsmedium;
 }
 .icones{
@@ -81,11 +78,3 @@ img{
     margin-left: 110px;
 }
 
-input{
-    margin-top: 20px;/*vai dar uma separada */
-    height: 20px;
-    padding: 15px;
-    border-radius: 20px;
-    border: none;
-    font-size: 15px;
-}
