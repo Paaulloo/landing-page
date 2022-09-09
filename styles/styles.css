@@ -47,7 +47,7 @@ main{
     margin-top:50px ;/*Criar uma margin pra cima que faz com que empurre o ocnteudo para baixo*/
 }
 h2{
-    font-size: 56px; /*Isto faz com que o texto fique maior*/
+    font-size: 50px; /*Isto faz com que o texto fique maior*/
      line-height: 10px;/*para chegar mais perto vai mexer 10px na vertical*/
      font-family: poppinsmedium;/* serve para estar mudando de fonte */   
 }
@@ -60,23 +60,11 @@ h2{
     font-family: poppinslight;
 }
 img{
-    width: 600px; /*O widthatributo especifica a largura do elemento, em pixels*/
+    width: 250px; /*O widthatributo especifica a largura do elemento, em pixels*/
+    border-radius: 50px;
+    margin-left: 110px;
 }
-form{
-    display: flex;
-    flex-direction: column;/*Esta dizendo para que ficar em forma de coluna o flex*/
-    width: 70%; /*<width> e uma largura....para ficar 70% de acordo com o tamanho da div..... Aqui no caso como esta separada pra apenas a metade da tela n vai fic na pagina completa  */
-    
-}
-form [type="submit"]{/*Vai mexer apenas no submit do form*/
-    height: 50px;/*Definir altura*/
-    width: 50%; /*Definir Largura*/
-    background-color: rgb(132, 13, 201);
-    color: white;
-    font-weight: 15px;
-}
-form [type="submit"]:hover{/*Vai mexer apenas no submit do form* hover*/
-    cursor: pointer;}/* serve para colocar um mão do mouse quando passa por cima de "botão"*/
+
 input{
     margin-top: 20px;/*vai dar uma separada */
     height: 20px;
